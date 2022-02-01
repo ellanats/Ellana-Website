@@ -1,0 +1,32 @@
+body {
+	background-image: url(https://cdn-images-1.medium.com/max/1600/1*5XH40dQSsBVFtvx3MO5VwQ.png);
+	background-position: center;
+	background-size: cover;
+	/* display: flex; */
+	/* height: 100vh; */
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	width: 30%;
+	/* position: absolute; */
+	box-shadow: 3px 3px 20px;
+	/* display: flex; */
+	justify-content: center;
+	/* padding: 1rem 2rem; */
+}
+
+/* .image-list {
+	padding: 1rem 2rem;  
+} */
+
+.my-card-list {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+	gap: 2rem;
+
+	/* padding: 1rem 2 rem; */
+}

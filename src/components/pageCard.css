@@ -10,7 +10,7 @@ body {
 
 .card {
 	width: 30%;
-	/* position: absolute; */
+    /* position: absolute; */
 	box-shadow: 3px 3px 20px;
 	/* display: flex; */
 	justify-content: center;
@@ -20,6 +20,10 @@ body {
 /* .image-list {
 	padding: 1rem 2rem;  
 } */
+
+.card-img{
+    display: top;
+}
 
 .my-card-list {
 	position: relative;

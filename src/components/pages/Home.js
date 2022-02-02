@@ -5,7 +5,7 @@ import HomeCardList from '../HomeCardList';
 function Home(props) {
 	return (
 		<React.Fragment>			
-				<HomeCardList images={props.images} />			
+			<HomeCardList images={props.images} />			
 		</React.Fragment>
 	);
 }

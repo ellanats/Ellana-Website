@@ -76,7 +76,7 @@ export const images = [
 		name: 'rain-grain',
 		material: 'black, white, red and pink beans, green and yellow mung beans, white rolled oats, and red lentils.',
 		description:
-			'This is an abstract representation of the rain (and raindrops) from the childhood memories, where everything looked magical and colorful.',
+			'An abstract representation of the rain (and raindrops) from the childhood memories, where everything looked magical and colorful.',
 		path: '/bean-art',
 		featured: false
 	},
@@ -137,6 +137,7 @@ export const images = [
 		title: 'Fish Pond Composition',
 		name: 'fish-grain',
 		material: 'black, white, and red beans, green mung beans, yellow split peas, buckwheat, rolled oats, red lentils, millet, and Acini di Pepe Pasta as background .',
+		description: 'This was a big, 24" x 48" art piece, and it took me a while to finish. It turned out to be a true exploration of composition and movement of various elements, such as fishes, lily pads, and "water layers", as well as utilizing the thicknesses and textures of various grains to create a cohesive piece.',
 		path: '/bean-art',
 		featured: false
 	}	

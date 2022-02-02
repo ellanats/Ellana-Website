@@ -1,4 +1,3 @@
-/*global require eslint-env es6*/
 import React from 'react';
 import HomeCard from './HomeCard';
 import { Link } from 'react-router-dom';

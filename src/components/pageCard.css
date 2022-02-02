@@ -1,28 +1,15 @@
-body {
-	background-image: url(https://cdn-images-1.medium.com/max/1600/1*5XH40dQSsBVFtvx3MO5VwQ.png);
-	background-position: center;
+body { 
+	background: url(https://cdn-images-1.medium.com/max/1600/1*5XH40dQSsBVFtvx3MO5VwQ.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
-	/* display: flex; */
-	/* height: 100vh; */
-	align-items: center;
-	justify-content: center;
-}
+  }
 
 .card {
-	width: 30%;
-    /* position: absolute; */
+	width: 31%;
 	box-shadow: 3px 3px 20px;
-	/* display: flex; */
 	justify-content: center;
-	/* padding: 1rem 2rem; */
-}
-
-/* .image-list {
-	padding: 1rem 2rem;  
-} */
-
-.card-img{
-    display: top;
 }
 
 .my-card-list {
@@ -31,6 +18,11 @@ body {
 	flex-wrap: wrap;
 	margin-top: 2rem;
 	gap: 2rem;
+	justify-content: center;
 
 	/* padding: 1rem 2 rem; */
+}
+.card:hover {
+	transform: scale(1.2);
+	z-index: 1;
 }

@@ -234,7 +234,7 @@ export const images = [
 	{
 		id: 27,
 		url: '/assets/images/cosmos-oil-pastels.jpg',
-		title: 'Cosmos Mysteries',		
+		title: 'Cosmos Arteries',		
 		path:'/oil-pastels',
 		featured: false
 	},
@@ -242,6 +242,20 @@ export const images = [
 		id: 28,
 		url: '/assets/images/commet-oil-pastels.jpg',
 		title: 'Commet Journey',		
+		path:'/oil-pastels',
+		featured: false
+	},
+	{
+		id: 29,
+		url: '/assets/images/street-oil-pastels.jpg',
+		title: 'Old Street View',		
+		path:'/oil-pastels',
+		featured: false
+	},
+	{
+		id: 28,
+		url: '/assets/images/flower-mystery-oil-pastels.jpg',
+		title: 'Flower Mystery',		
 		path:'/oil-pastels',
 		featured: false
 	},

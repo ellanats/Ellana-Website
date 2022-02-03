@@ -7,8 +7,8 @@ const PageCard = ({ url, path, title, name, material, description }) => {
 		<Card>
 			<Card.Img variant="top" path={path} src={url} alt={name} />
 			<Card.Body className="align-bottom">
-				<Card.Title className="align-text-bottom">
-					<h4>{title}</h4>
+				<Card.Title className="align-text-bottom p-0">
+					<h5>{title}</h5>
 				</Card.Title>
 				{material && <Card.Text>{`Materials: ${material}`}</Card.Text>}
 				{description && <Card.Text>{description}</Card.Text>}

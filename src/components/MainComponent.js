@@ -35,9 +35,9 @@ class Main extends Component {
 		const JewelryPage = () => {
 		 	return <Jewelry images={this.state.images} />;
 		 };
-		// const OilPastelsPage = () => {
-		// 	return <OilPastels images={this.state.images} />;
-		// };
+		const OilPastelsPage = () => {
+		 	return <OilPastels images={this.state.images} />;
+		 };
 		// const PointilismPage = () => {
 		// 	return <Pointilism images={this.state.images} />;
 		// };
@@ -59,7 +59,7 @@ class Main extends Component {
 						<Route path="/bean-art" element={<BeanArtPage />} />
 						<Route path="/black-white" element={<BlackWhitePage />} />
 						<Route path="/jewelry" element={<JewelryPage />} />
-						<Route path="/oil-pastels" element={<OilPastels />} />
+						<Route path="/oil-pastels" element={<OilPastelsPage />} />
 						<Route path="/pointilism" element={<Pointilism />} />
 						<Route path="/stained-glass" element={<StainedGlass />} />
 						<Route path="/about" element={<About />} />

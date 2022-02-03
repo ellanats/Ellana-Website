@@ -4,7 +4,7 @@ import PageCardList from '../PageCardList';
 
 function BeanArt({ images }) {
 	const beanUrl = images.filter((images) => {
-		return (!images.featured && images.name.includes('grain'));
+		return !images.featured && images.path.includes('bean-art');
 	});
 
 	return (
@@ -27,9 +27,6 @@ function BeanArt({ images }) {
 					<Col className="text-center">
 						<PageCardList images={beanUrl} />
 					</Col>
-					{/* <Col className="text-center">
-						<PageCardList images={images} />
-					</Col> */}
 				</Row>
 			</Container>
 		</div>

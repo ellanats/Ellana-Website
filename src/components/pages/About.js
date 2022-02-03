@@ -14,7 +14,7 @@ function About() {
 						<h3 className="text-center">Hello!</h3>
 						<p className="card-text">
 							My name is Ellana, and I live with my family in NJ, USA.  I hope you will enjoy
-							looking at my art work!{<br/>}{<br/>} My next chapter in life is learning the Front-End Web Development. In fact, this website  was built by me using React.js.
+							looking at my art work!{<br/>}{<br/>} I built this website by using React.js and really loved the experience. I hope the Front-End Web Development will be the next chapter of my life.
 						</p>
 					</div>
 				</div>

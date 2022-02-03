@@ -140,5 +140,109 @@ export const images = [
 		description: 'This was a big, 24" x 48" art piece, and it took me a while to finish. It turned out to be a true exploration of composition and movement of various elements, such as fishes, lily pads, and "water layers", as well as utilizing the thicknesses and textures of various grains to create a cohesive piece.',
 		path: '/bean-art',
 		featured: false
-	}	
+	},
+	{
+		id: 15,
+		url: '/assets/images/vase-black-white.jpg',
+		title: 'Vase & Pearls still life',
+		path:'/black-white',
+		featured: false
+	},
+	{
+		id: 16,
+		url: '/assets/images/grapes-black-white.jpg',
+		title: 'Grapes still life',		
+		path:'/black-white',
+		featured: false
+	},
+	{
+		id: 17,
+		url: '/assets/images/pepper-tomato-black-white.jpg',
+		title: 'Pepper & Tomato still life',
+		path:'/black-white',
+		featured: false
+	},
+	{
+		id: 18,
+		url: '/assets/images/3apples-black-white.jpg',
+		title: 'Three Apples still life',
+		path:'/black-white',
+		featured: false
+	},
+	{
+		id: 19,
+		url: '/assets/images/pepper-mushroom-black-white.jpg',
+		title: 'Pepper & Mushroom still life',
+		path:'/black-white',
+		featured: false
+	},
+	{
+		id: 20,
+		url: '/assets/images/5apples-black-white.jpg',
+		title: 'Five Apples still life',
+		path:'/black-white',
+		featured: false
+	},
+	{
+		id: 21,
+		url: '/assets/images/Apendant-jewelry.jpg',
+		title: 'Initial "A" pendant',
+		material: 'yellow gold',
+		path:'/jewelry',
+		featured: false
+	},
+	{
+		id: 22,
+		url: '/assets/images/Bpendant-jewelry.jpg',
+		title: 'Initial "B" pendant',
+		material: 'yellow gold',
+		path:'/jewelry',
+		featured: false
+	},
+	{
+		id: 23,
+		url: '/assets/images/Ependant-jewelry.jpg',
+		title: 'Initial "E" pendant',
+		material: 'white gold',
+		path:'/jewelry',
+		featured: false
+	},
+	{
+		id: 24,
+		url: '/assets/images/Gpendant-jewelry.jpg',
+		title: 'Initial "G" pendant',
+		material: 'yellow gold',
+		path:'/jewelry',
+		featured: false
+	},
+		{
+		id: 25,
+		url: '/assets/images/Kpendant-jewelry.jpg',
+		title: 'Initial "K" pendant',
+		material: 'yellow gold',
+		path:'/jewelry',
+		featured: false
+	},
+	{
+		id: 26,
+		url: '/assets/images/Mpendant-jewelry.jpg',
+		title: 'Initial "M" pendant',
+		material: 'yellow gold',
+		path:'/jewelry',
+		featured: false
+	},
+	{
+		id: 27,
+		url: '/assets/images/cosmos-oil-pastels.jpg',
+		title: 'Cosmos Mysteries',		
+		path:'/oil-pastels',
+		featured: false
+	},
+	{
+		id: 28,
+		url: '/assets/images/commet-oil-pastels.jpg',
+		title: 'Commet Journey',		
+		path:'/oil-pastels',
+		featured: false
+	},
 ];

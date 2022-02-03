@@ -29,12 +29,12 @@ class Main extends Component {
 		const BeanArtPage = () => {
 			return <BeanArt images={this.state.images} />;
 		};
-		// const BlackWhitePage = () => {
-		// 	return <BlackWhite images={this.state.images} />;
-		// };
-		// const JewelryPage = () => {
-		// 	return <Jewelry images={this.state.images} />;
-		// };
+		const BlackWhitePage = () => {
+		 	return <BlackWhite images={this.state.images} />;
+		 };
+		const JewelryPage = () => {
+		 	return <Jewelry images={this.state.images} />;
+		 };
 		// const OilPastelsPage = () => {
 		// 	return <OilPastels images={this.state.images} />;
 		// };
@@ -57,8 +57,8 @@ class Main extends Component {
 					<Routes>
 						<Route exact path="/" element={<HomePage />} />
 						<Route path="/bean-art" element={<BeanArtPage />} />
-						<Route path="/black-white" element={<BlackWhite />} />
-						<Route path="/jewelry" element={<Jewelry />} />
+						<Route path="/black-white" element={<BlackWhitePage />} />
+						<Route path="/jewelry" element={<JewelryPage />} />
 						<Route path="/oil-pastels" element={<OilPastels />} />
 						<Route path="/pointilism" element={<Pointilism />} />
 						<Route path="/stained-glass" element={<StainedGlass />} />

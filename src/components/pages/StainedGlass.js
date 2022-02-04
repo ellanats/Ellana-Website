@@ -1,7 +1,23 @@
-import React from "react";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import PageCardList from '../PageCardList';
 
-function StainedGlass() {
-    <div></div>
+function StainedGlass({ images }) {
+	const glassUrl = images.filter((images) => {
+		return !images.featured && images.path.includes('glass');
+	});
+
+	return (
+		<div>
+			<Container className="container-fluid w-75">
+				<Row>
+					<Col className="text-center p-0">
+						<PageCardList images={glassUrl} />
+					</Col>
+				</Row>
+			</Container>
+		</div>
+	);
 }
 
 export default StainedGlass;

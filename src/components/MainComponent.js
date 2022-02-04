@@ -12,7 +12,6 @@ import Pointilism from './pages/Pointilism';
 import StainedGlass from './pages/StainedGlass';
 import { images } from './images';
 
-
 class Main extends Component {
 	constructor(props) {
 		super(props);
@@ -25,30 +24,24 @@ class Main extends Component {
 		const HomePage = () => {
 			return <Home images={this.state.images} />;
 		};
-
 		const BeanArtPage = () => {
 			return <BeanArt images={this.state.images} />;
 		};
 		const BlackWhitePage = () => {
-		 	return <BlackWhite images={this.state.images} />;
-		 };
+			return <BlackWhite images={this.state.images} />;
+		};
 		const JewelryPage = () => {
-		 	return <Jewelry images={this.state.images} />;
-		 };
+			return <Jewelry images={this.state.images} />;
+		};
 		const OilPastelsPage = () => {
-		 	return <OilPastels images={this.state.images} />;
-		 };
-		// const PointilismPage = () => {
-		// 	return <Pointilism images={this.state.images} />;
-		// };
-
-		// function About() {
-		// 	return (
-		// 		<div style={{ padding: 20 }}>
-		// 			<h2>About</h2>
-		// 		</div>
-		// 	);
-		// }
+			return <OilPastels images={this.state.images} />;
+		};
+		const PointilismPage = () => {
+			return <Pointilism images={this.state.images} />;
+		};
+		const StainedGlassPage = () => {
+			return <StainedGlass images={this.state.images} />;
+		};
 
 		return (
 			<React.Fragment>
@@ -60,8 +53,8 @@ class Main extends Component {
 						<Route path="/black-white" element={<BlackWhitePage />} />
 						<Route path="/jewelry" element={<JewelryPage />} />
 						<Route path="/oil-pastels" element={<OilPastelsPage />} />
-						<Route path="/pointilism" element={<Pointilism />} />
-						<Route path="/stained-glass" element={<StainedGlass />} />
+						<Route path="/pointilism" element={<PointilismPage />} />
+						<Route path="/stained-glass" element={<StainedGlassPage />} />
 						<Route path="/about" element={<About />} />
 						<Route exact path="/contact" element={<Contact />} />
 						{/* <Route path="/aspirations" element={<Aspirations />} /> */}

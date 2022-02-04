@@ -259,4 +259,64 @@ export const images = [
 		path:'/oil-pastels',
 		featured: false
 	},
+	{
+		id: 29,
+		url: '/assets/images/baby-pointilism.jpg',
+		title: 'Baby & Butterfly',		
+		path:'/pointilism',
+		featured: false
+	},
+	{
+		id: 30,
+		url: '/assets/images/paisley-pointilism.jpg',
+		title: 'Paisley Composition',		
+		path:'/pointilism',
+		featured: false
+	},
+	{
+		id: 31,
+		url: '/assets/images/green-plant-pointilism.jpg',
+		title: 'Paisley Composition',		
+		path:'/pointilism',
+		featured: false
+	},
+	{
+		id: 32,
+		url: '/assets/images/plant-flowers-pointilism.jpg',
+		title: 'Flower Vine Composition',		
+		path:'/pointilism',
+		featured: false
+	},
+	{
+		id: 33,
+		url: '/assets/images/birches-stained-glass.jpg',
+		title: 'Birches Lighbox (unlit)',
+		material: 'lead strips, liquid lead, glass paint',
+		path:'/stained-glass',
+		featured: false
+	},
+	{
+		id: 34,
+		url: '/assets/images/birches-lit-stained-glass.jpg',
+		title: 'Birches Lighbox (lit)',
+		material: 'lead strips, liquid lead, glass paint, led strip lights',
+		path:'/stained-glass',
+		featured: false
+	},
+	{
+		id: 35,
+		url: '/assets/images/art-deco-stained-glass.jpg',
+		title: 'Art Deco panel',
+		material: 'lead strips, liquid lead, glass paint',
+		path:'/stained-glass',
+		featured: false
+	},
+	{
+		id: 36,
+		url: '/assets/images/art-nouveau-stained-glass.jpg',
+		title: 'Art Nouveau panel',
+		material: 'lead strips, liquid lead, glass paint',
+		path:'/stained-glass',
+		featured: false
+	},
 ];

@@ -6,12 +6,12 @@ const PageCard = ({ url, path, title, name, material, description }) => {
 	return (
 		<Card>
 			<Card.Img variant="top" path={path} src={url} alt={name} />
-			<Card.Body className="align-bottom">
+			<Card.Body>
 				<Card.Title className="align-text-bottom p-0">
 					<h5>{title}</h5>
 				</Card.Title>
-				{material && <Card.Text>{`Materials: ${material}`}</Card.Text>}
-				{description && <Card.Text>{description}</Card.Text>}
+				{material && <Card.Text >{`Materials: ${material}`}</Card.Text>}
+				{description && <Card.Text >{description}</Card.Text>}
 			</Card.Body>
 		</Card>
 	);

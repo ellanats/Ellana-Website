@@ -4,7 +4,7 @@ import PageCardList from '../PageCardList';
 
 function BeanArt({ images }) {
 	const beanUrl = images.filter((images) => {
-		return !images.featured && images.path.includes('bean-art');
+		return !images.featured && images.path.includes('bean');
 	});
 
 	return (

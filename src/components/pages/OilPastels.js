@@ -3,31 +3,17 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import PageCardList from '../PageCardList';
 import '../pageCard.css';
 
-
 function OilPastels({ images }) {
 	const oilUrl = images.filter((images) => {
-		return !images.featured && images.path.includes('oil-pastels');
+		return !images.featured && images.path.includes('oil');
 	});
 
-	
-
-	// const OilCardList = ({ images }) => {
-	// 	const oilImages = images.map((images) => {
-	// 		return images.path.includes('oil-pastels');
-	// 	});
-
-	// 	if (oilImages.length === 4) {			
-	// 		return <Card style={{ width: '45%' }}/>
-	// 	}
-		
-	// };
-
 	return (
-		<div >
+		<div>
 			<Container className="container-fluid w-75">
-				<Row >
+				<Row>
 					<Col className="text-center p-0">
-						<PageCardList style={{flexBasis: '45%'}} images={oilUrl} />
+						<PageCardList images={oilUrl} />
 					</Col>
 				</Row>
 			</Container>

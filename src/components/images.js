@@ -119,7 +119,7 @@ export const images = [
 			'A family crest composition in my favorite Art Noveau style. The foreground is occupied by the first letter of our surname. The background has the initials of all the family members, in no particular order.',
 		path: '/bean-art',
 		featured: false
-	},	
+	},
 	{
 		id: 13,
 		url: '/assets/images/leaves_grain.jpg',
@@ -136,8 +136,10 @@ export const images = [
 		url: '/assets/images/fishes-pond-grain.jpg',
 		title: 'Fish Pond Composition',
 		name: 'fish-grain',
-		material: 'black, white, and red beans, green mung beans, yellow split peas, buckwheat, rolled oats, red lentils, millet, and Acini di Pepe Pasta as background .',
-		description: 'This was a big, 24" x 48" art piece, and it took me a while to finish. It turned out to be a true exploration of composition and movement of various elements, such as fishes, lily pads, and "water layers", as well as utilizing the thicknesses and textures of various grains to create a cohesive piece.',
+		material:
+			'black, white, and red beans, green mung beans, yellow split peas, buckwheat, rolled oats, red lentils, millet, and Acini di Pepe Pasta as background .',
+		description:
+			'This was a big, 24" x 48" art piece, and it took me a while to finish. It turned out to be a true exploration of composition and movement of various elements, such as fishes, lily pads, and "water layers", as well as utilizing the thicknesses and textures of various grains to create a cohesive piece.',
 		path: '/bean-art',
 		featured: false
 	},
@@ -145,42 +147,42 @@ export const images = [
 		id: 15,
 		url: '/assets/images/vase-black-white.jpg',
 		title: 'Vase & Pearls still life',
-		path:'/black-white',
+		path: '/black-white',
 		featured: false
 	},
 	{
 		id: 16,
 		url: '/assets/images/grapes-black-white.jpg',
-		title: 'Grapes still life',		
-		path:'/black-white',
+		title: 'Grapes still life',
+		path: '/black-white',
 		featured: false
 	},
 	{
 		id: 17,
 		url: '/assets/images/pepper-tomato-black-white.jpg',
 		title: 'Pepper & Tomato still life',
-		path:'/black-white',
+		path: '/black-white',
 		featured: false
 	},
 	{
 		id: 18,
 		url: '/assets/images/3apples-black-white.jpg',
 		title: 'Three Apples still life',
-		path:'/black-white',
+		path: '/black-white',
 		featured: false
 	},
 	{
 		id: 19,
 		url: '/assets/images/pepper-mushroom-black-white.jpg',
 		title: 'Pepper & Mushroom still life',
-		path:'/black-white',
+		path: '/black-white',
 		featured: false
 	},
 	{
 		id: 20,
 		url: '/assets/images/5apples-black-white.jpg',
 		title: 'Five Apples still life',
-		path:'/black-white',
+		path: '/black-white',
 		featured: false
 	},
 	{
@@ -188,7 +190,7 @@ export const images = [
 		url: '/assets/images/Apendant-jewelry.jpg',
 		title: 'Initial "A" pendant',
 		material: 'yellow gold',
-		path:'/jewelry',
+		path: '/jewelry',
 		featured: false
 	},
 	{
@@ -196,7 +198,7 @@ export const images = [
 		url: '/assets/images/Bpendant-jewelry.jpg',
 		title: 'Initial "B" pendant',
 		material: 'yellow gold',
-		path:'/jewelry',
+		path: '/jewelry',
 		featured: false
 	},
 	{
@@ -204,7 +206,7 @@ export const images = [
 		url: '/assets/images/Ependant-jewelry.jpg',
 		title: 'Initial "E" pendant',
 		material: 'white gold',
-		path:'/jewelry',
+		path: '/jewelry',
 		featured: false
 	},
 	{
@@ -212,15 +214,15 @@ export const images = [
 		url: '/assets/images/Gpendant-jewelry.jpg',
 		title: 'Initial "G" pendant',
 		material: 'yellow gold',
-		path:'/jewelry',
+		path: '/jewelry',
 		featured: false
 	},
-		{
+	{
 		id: 25,
 		url: '/assets/images/Kpendant-jewelry.jpg',
 		title: 'Initial "K" pendant',
 		material: 'yellow gold',
-		path:'/jewelry',
+		path: '/jewelry',
 		featured: false
 	},
 	{
@@ -228,63 +230,63 @@ export const images = [
 		url: '/assets/images/Mpendant-jewelry.jpg',
 		title: 'Initial "M" pendant',
 		material: 'yellow gold',
-		path:'/jewelry',
+		path: '/jewelry',
 		featured: false
 	},
 	{
 		id: 27,
 		url: '/assets/images/cosmos-oil-pastels.jpg',
-		title: 'Cosmos Arteries',		
-		path:'/oil-pastels',
+		title: 'Cosmos Arteries',
+		path: '/oil-pastels',
 		featured: false
 	},
 	{
 		id: 28,
 		url: '/assets/images/commet-oil-pastels.jpg',
-		title: 'Commet Journey',		
-		path:'/oil-pastels',
+		title: 'Commet Journey',
+		path: '/oil-pastels',
 		featured: false
 	},
 	{
 		id: 29,
 		url: '/assets/images/street-oil-pastels.jpg',
-		title: 'Old Street View',		
-		path:'/oil-pastels',
+		title: 'Old Street View',
+		path: '/oil-pastels',
 		featured: false
 	},
 	{
 		id: 28,
 		url: '/assets/images/flower-mystery-oil-pastels.jpg',
-		title: 'Flower Mystery',		
-		path:'/oil-pastels',
+		title: 'Cala Flower Mystery',
+		path: '/oil-pastels',
 		featured: false
 	},
 	{
 		id: 29,
 		url: '/assets/images/baby-pointilism.jpg',
-		title: 'Baby & Butterfly',		
-		path:'/pointilism',
+		title: 'Baby & Butterfly',
+		path: '/pointilism',
 		featured: false
 	},
 	{
 		id: 30,
 		url: '/assets/images/paisley-pointilism.jpg',
-		title: 'Paisley Composition',		
-		path:'/pointilism',
+		title: 'Paisley Composition',
+		path: '/pointilism',
 		featured: false
 	},
 	{
 		id: 31,
 		url: '/assets/images/green-plant-pointilism.jpg',
-		title: 'Paisley Composition',		
-		path:'/pointilism',
+		title: 'Paisley Composition',
+		path: '/pointilism',
 		featured: false
 	},
 	{
 		id: 32,
 		url: '/assets/images/plant-flowers-pointilism.jpg',
-		title: 'Flower Vine Composition',		
-		path:'/pointilism',
+		title: 'Flower Vine Composition',
+		path: '/pointilism',
 		featured: false
 	},
 	{
@@ -292,7 +294,7 @@ export const images = [
 		url: '/assets/images/birches-stained-glass.jpg',
 		title: 'Birches Lighbox (unlit)',
 		material: 'lead strips, liquid lead, glass paint',
-		path:'/stained-glass',
+		path: '/stained-glass',
 		featured: false
 	},
 	{
@@ -300,7 +302,7 @@ export const images = [
 		url: '/assets/images/birches-lit-stained-glass.jpg',
 		title: 'Birches Lighbox (lit)',
 		material: 'lead strips, liquid lead, glass paint, led strip lights',
-		path:'/stained-glass',
+		path: '/stained-glass',
 		featured: false
 	},
 	{
@@ -308,15 +310,15 @@ export const images = [
 		url: '/assets/images/art-nouveau-stained-glass.jpg',
 		title: 'Art Nouveau panel',
 		material: 'lead strips, liquid lead, glass paint',
-		path:'/stained-glass',
+		path: '/stained-glass',
 		featured: false
 	},
 	{
-		id: 36,		
+		id: 36,
 		url: '/assets/images/art-deco-stained-glass.jpg',
 		title: 'Art Deco panel',
 		material: 'lead strips, liquid lead, glass paint',
-		path:'/stained-glass',
+		path: '/stained-glass',
 		featured: false
-	},
+	}
 ];

@@ -5,13 +5,6 @@ import './Navigation.css';
 import { DropdownItems } from './DropdownItems';
 
 function Navigation() {
-	// docReady(function() {
-	// 	let dropdownMenu = DropdownItems.children('.my-dropdown-item');
-	// 	if (dropdownMenu.is(':visible')) {
-	// 		dropdownMenu.parent().toggleClass('open');
-	// 	}
-	// });
-
 	return (
 		<React.Fragment>
 			<Navbar className="my-navbar" expand="lg">
@@ -19,10 +12,16 @@ function Navigation() {
 					<Navbar.Brand href="/" className="my-brand text-white">
 						Ellana Designs
 					</Navbar.Brand>
-					<Navbar.Toggle className="my-toggler-icon" aria-controls="basic-navbar-nav "/>
+					<Navbar.Toggle className="my-toggler-icon" aria-controls="basic-navbar-nav " />
 					<Navbar.Collapse className="justify-content-end " id="basic-navbar-nav">
 						<Nav className="my-nav-menu text-white">
-							<Nav.Link as={Link} to="/" className="my-link text-white" data-bs-toggle="collapse" data-bs-target="my-link.text-white">
+							<Nav.Link
+								as={Link}
+								to="/"
+								className="my-link text-white"
+								data-bs-toggle="collapse"
+								data-bs-target="my-link.text-white"
+							>
 								Home
 							</Nav.Link>
 							<NavDropdown className="my-dropdown-menu" title="Portfolio" id="portfolio-nav-dropdown">

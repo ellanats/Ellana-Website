@@ -305,16 +305,16 @@ export const images = [
 	},
 	{
 		id: 35,
-		url: '/assets/images/art-deco-stained-glass.jpg',
-		title: 'Art Deco panel',
+		url: '/assets/images/art-nouveau-stained-glass.jpg',
+		title: 'Art Nouveau panel',
 		material: 'lead strips, liquid lead, glass paint',
 		path:'/stained-glass',
 		featured: false
 	},
 	{
-		id: 36,
-		url: '/assets/images/art-nouveau-stained-glass.jpg',
-		title: 'Art Nouveau panel',
+		id: 36,		
+		url: '/assets/images/art-deco-stained-glass.jpg',
+		title: 'Art Deco panel',
 		material: 'lead strips, liquid lead, glass paint',
 		path:'/stained-glass',
 		featured: false

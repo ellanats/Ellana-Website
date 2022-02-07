@@ -9,7 +9,7 @@ function StainedGlass({ images }) {
 
 	return (
 		<div>
-			<Container className="container-fluid w-75">
+			<Container fluid>
 				<Row>
 					<Col className="text-center p-0">
 						<PageCardList images={glassUrl} />

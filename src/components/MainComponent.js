@@ -57,9 +57,7 @@ class Main extends Component {
 						<Route path="/stained-glass" element={<StainedGlassPage />} />
 						<Route path="/about" element={<About />} />
 						<Route exact path="/contact" element={<Contact />} />
-						{/* <Route path="/aspirations" element={<Aspirations />} /> */}
 					</Routes>
-					{/* <CardList images={this.state.images} /> */}
 				</Router>
 			</React.Fragment>
 		);

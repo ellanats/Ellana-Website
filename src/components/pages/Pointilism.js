@@ -9,9 +9,9 @@ function Pointilism({ images }) {
 
 	return (
 		<div>
-			<Container className="container-fluid w-75">
-				<Row>
-					<Col className="text-center p-0">
+			<Container fluid  style={{width: '69%'}}>
+				<Row >
+					<Col  className="text-center p-0">
 						<PageCardList images={pointUrl} />
 					</Col>
 				</Row>
@@ -20,3 +20,4 @@ function Pointilism({ images }) {
 	);
 }
 export default Pointilism;
+

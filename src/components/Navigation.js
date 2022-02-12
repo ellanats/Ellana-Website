@@ -12,8 +12,19 @@ function Navigation() {
 					<Navbar.Brand href="/" className="my-brand text-white">
 						Ellana Designs
 					</Navbar.Brand>
-					<Navbar.Toggle className="my-toggler-icon" aria-controls="basic-navbar-nav " />
-					<Navbar.Collapse className="justify-content-end " id="basic-navbar-nav">
+					<Navbar.Toggle
+						className="my-toggler-icon" //aria-controls="basic-navbar-nav "
+						type="button"
+						data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+						aria-label="Toggle navigation"
+					/>
+					<Navbar.Collapse
+						className="justify-content-end "
+						id="navbarSupportedContent"
+						
+						data-toggle="collapse"
+						data-target=".navbar-collapse" 
+					>
 						<Nav className="my-nav-menu text-white">
 							<Nav.Link
 								as={Link}
@@ -49,7 +60,9 @@ function Navigation() {
 				</Container>
 			</Navbar>
 		</React.Fragment>
+
 	);
 }
 
 export default Navigation;
+

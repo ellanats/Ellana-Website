@@ -5,16 +5,16 @@ import './pageCard.css';
 const PageCardList = ({ images }) => {
 	return (
 		<div className="my-card-list">
-			{images.map((card) => {
+			{images.map((img) => {
 				return (
 					<PageCard
-						key={card.url}
-						id={card.id}
-						url={card.url}
-						path={card.path}
-						title={card.title}
-						material={card.material}
-						description={card.description}
+						key={img.url}
+						id={img.id}
+						url={img.url}
+						path={img.path}
+						title={img.title}
+						material={img.material}
+						description={img.description}
 					/>
 				);
 			})}

@@ -9,26 +9,28 @@ function Navigation() {
 		<React.Fragment>
 			<Navbar className="my-navbar" expand="lg">
 				<Container className="my-container">
-					<Navbar.Brand href="/" className="my-brand text-white">
+					<Navbar.Brand href="/Ellana-Website" className="my-brand text-white">
 						Ellana Designs
 					</Navbar.Brand>
 					<Navbar.Toggle
 						className="my-toggler-icon" //aria-controls="basic-navbar-nav "
 						type="button"
-						data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+						data-toggle="collapse"
+						data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
 						aria-label="Toggle navigation"
 					/>
 					<Navbar.Collapse
 						className="justify-content-end "
 						id="navbarSupportedContent"
-						
 						data-toggle="collapse"
-						data-target=".navbar-collapse" 
+						data-target=".navbar-collapse"
 					>
 						<Nav className="my-nav-menu text-white">
 							<Nav.Link
 								as={Link}
-								to="/"
+								to="/Ellana-Website/"
 								className="my-link text-white"
 								data-bs-toggle="collapse"
 								data-bs-target="my-link.text-white"
@@ -43,16 +45,25 @@ function Navigation() {
 										className="my-dropdown-item"
 										key={item.id}
 									>
-										<Nav.Link className="text-white" as={Link} name={item.name} to={item.path}>
+										<Nav.Link
+											className="text-white"
+											as={Link}
+											name={item.name}
+											to={`/Ellana-Website${item.path}`}
+										>
 											{item.title}
 										</Nav.Link>
 									</NavDropdown.Item>
 								))}
 							</NavDropdown>
-							<Nav.Link className="my-link text-white" as={Link} to="/about">
+							<Nav.Link className="my-link text-white" as={Link} to="/Ellana-Website/about">
 								About
 							</Nav.Link>
-							<Nav.Link className="my-link text-white hvr-underline-from-center" as={Link} to="/contact">
+							<Nav.Link
+								className="my-link text-white hvr-underline-from-center"
+								as={Link}
+								to="/Ellana-Website/contact"
+							>
 								Contact
 							</Nav.Link>
 						</Nav>
@@ -60,9 +71,7 @@ function Navigation() {
 				</Container>
 			</Navbar>
 		</React.Fragment>
-
 	);
 }
 
 export default Navigation;
-

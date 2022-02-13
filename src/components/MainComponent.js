@@ -48,15 +48,15 @@ class Main extends Component {
 				<Router>
 					<Navigation />
 					<Routes>
-						<Route exact path="/" element={<HomePage />} />
-						<Route path="/bean-art" element={<BeanArtPage />} />
-						<Route path="/black-white" element={<BlackWhitePage />} />
-						<Route path="/jewelry" element={<JewelryPage />} />
-						<Route path="/oil-pastels" element={<OilPastelsPage />} />
-						<Route path="/pointilism" element={<PointilismPage />} />
-						<Route path="/stained-glass" element={<StainedGlassPage />} />
-						<Route path="/about" element={<About />} />
-						<Route exact path="/contact" element={<Contact />} />
+						<Route path="/Ellana-Website" element={<HomePage />} />
+						<Route path="/Ellana-Website/bean-art" element={<BeanArtPage />} />
+						<Route path="/Ellana-Website/black-white" element={<BlackWhitePage />} />
+						<Route path="/Ellana-Website/jewelry" element={<JewelryPage />} />
+						<Route path="/Ellana-Website/oil-pastels" element={<OilPastelsPage />} />
+						<Route path="/Ellana-Website/pointilism" element={<PointilismPage />} />
+						<Route path="/Ellana-Website/stained-glass" element={<StainedGlassPage />} />
+						<Route path="/Ellana-Website/about" element={<About />} />
+						<Route exact path="/Ellana-Website/contact" element={<Contact />} />
 					</Routes>
 				</Router>
 			</React.Fragment>

@@ -10,10 +10,7 @@ const Contact = () => {
 			</Card.Title>
 			<Card.Body>
 				<Card.Text style={{ fontSize: '1.4rem' }}>Ellana Tsvayberg</Card.Text>
-				<Card.Text>2092 Mountain Avenue</Card.Text>
-				<Card.Text>Scotch Plains, NJ 07076</Card.Text>
-				<Card.Text>Tel: 917-494-0687</Card.Text>
-				<a href="mailto:ellanatsv@gmail.com">ellanatsv@gmail.com</a>
+				<a href="mailto:ellanadesigns1@gmail.com">ellanadesigns1@gmail.com</a>
 			</Card.Body>
 
 			<Card.Body className="links">

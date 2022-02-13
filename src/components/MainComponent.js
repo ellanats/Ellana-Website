@@ -56,9 +56,9 @@ class Main extends Component {
 						<Route path="/Ellana-Website/pointilism" element={<PointilismPage />} />
 						<Route path="/Ellana-Website/stained-glass" element={<StainedGlassPage />} />
 						<Route path="/Ellana-Website/about" element={<About />} />
-						<Route exact path="/Ellana-Website/contact" element={<Contact />} />
+						<Route path="/Ellana-Website/contact" element={<Contact />} />						
 					</Routes>
-				</Router>
+				</Router>				
 			</React.Fragment>
 		);
 	}

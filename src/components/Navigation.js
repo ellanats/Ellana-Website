@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Container, Navbar, Nav, NavDropdown, NavLink } from 'react-bootstrap';
 import './Navigation.css';
 import { DropdownItems } from './DropdownItems';
 
@@ -9,63 +9,67 @@ function Navigation() {
 		<React.Fragment>
 			<Navbar className="my-navbar" expand="lg">
 				<Container className="my-container">
-					<Navbar.Brand href="/Ellana-Website" className="my-brand text-white">
+					<Navbar.Brand as={Link} to="/Ellana-Website" className="my-brand text-white">
 						Ellana Designs
 					</Navbar.Brand>
-					<Navbar.Toggle
-						className="my-toggler-icon" //aria-controls="basic-navbar-nav "
-						type="button"
-						data-toggle="collapse"
-						data-target="#navbarSupportedContent"
-						aria-controls="navbarSupportedContent"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					/>
+					<Navbar.Toggle className="my-toggler-icon" aria-expanded="false" aria-label="Toggle navigation" />
 					<Navbar.Collapse
 						className="justify-content-end "
 						id="navbarSupportedContent"
-						data-toggle="collapse"
-						data-target=".navbar-collapse"
+						data-bs-toggle="collapse"
 					>
 						<Nav className="my-nav-menu text-white">
-							<Nav.Link
+							<NavLink
 								as={Link}
 								to="/Ellana-Website/"
 								className="my-link text-white"
-								data-bs-toggle="collapse"
-								data-bs-target="my-link.text-white"
+								onClick={() => '.navbar'.collapse('hide')}
 							>
 								Home
-							</Nav.Link>
-							<NavDropdown className="my-dropdown-menu" title="Portfolio" id="portfolio-nav-dropdown">
+							</NavLink>
+							<NavDropdown
+								className="my-dropdown-menu"
+								title="Portfolio"
+								id="portfolio-nav-dropdown"
+								>
 								{DropdownItems.map((item) => (
-									<NavDropdown.Item
+									<div
 										data-hover="dropdown"
 										data-animations="fadeInDown"
 										className="my-dropdown-item"
 										key={item.id}
+										
 									>
-										<Nav.Link
-											className="text-white"
+										<NavLink
 											as={Link}
+											className="text-white"
 											name={item.name}
 											to={`/Ellana-Website${item.path}`}
+											onClick={() => '.navbar'.collapse('hide')}
 										>
 											{item.title}
-										</Nav.Link>
-									</NavDropdown.Item>
+										</NavLink>
+									</div>
 								))}
 							</NavDropdown>
-							<Nav.Link className="my-link text-white" as={Link} to="/Ellana-Website/about">
-								About
-							</Nav.Link>
-							<Nav.Link
-								className="my-link text-white hvr-underline-from-center"
+							<NavLink
 								as={Link}
+								className="my-link text-white"
+								to="/Ellana-Website/about"
+								data-bs-toggle="collapse"
+								onClick={() => '.navbar'.collapse('hide')}
+							>
+								About
+							</NavLink>
+							<NavLink
+								as={Link}
+								className="my-link text-white hvr-underline-from-center"
 								to="/Ellana-Website/contact"
+								data-bs-toggle="collapse"
+								onClick={() => '.navbar'.collapse('hide')}
 							>
 								Contact
-							</Nav.Link>
+							</NavLink>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>

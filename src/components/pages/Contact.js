@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './contactCard.css';
 
 const Contact = () => {
@@ -10,39 +11,42 @@ const Contact = () => {
 			</Card.Title>
 			<Card.Body>
 				<Card.Text style={{ fontSize: '1.4rem' }}>Ellana Tsvayberg</Card.Text>
-				<a href="mailto:ellanadesigns1@gmail.com">ellanadesigns1@gmail.com</a>
+				<Card.Link as={Link} to="mailto:ellanadesigns1@gmail.com">ellanadesigns1@gmail.com</Card.Link>
 			</Card.Body>
 
-			<Card.Body className="links">
-				<a
+			<Card.Body className="my-links">
+				<Card.Link
+					as={Link}
 					className="btn btn-primary "
-					target ='blank'
+					target="blank"
 					style={{ backgroundColor: '#3b5998' }}
-					href="https://www.facebook.com/Ellana-Designs-2297107167231547"
+					to="https://www.facebook.com/Ellana-Designs-2297107167231547"
 					role="button"
 				>
 					<i className="fab fa-facebook-f" />
-				</a>
+				</Card.Link>
 
-				<a
+				<Card.Link
+					as={Link}
 					className="btn btn-primary"
-					target ='blank'
+					target="blank"
 					style={{ backgroundColor: '#ac2bac' }}
-					href="https://www.instagram.com/ellanadesigns/"
+					to="https://www.instagram.com/ellanadesigns/"
 					role="button"
 				>
 					<i className="fab fa-instagram" />
-				</a>
+				</Card.Link>
 
-				<a
+				<Card.Link
+					as={Link}
 					className="btn btn-primary"
-					target ='blank'
+					target="blank"
 					style={{ backgroundColor: '#0082ca' }}
-					href="https://www.linkedin.com/in/ellana-tsvayberg-3b175a9/"
+					to="https://www.linkedin.com/in/ellana-tsvayberg-3b175a9/"
 					role="button"
 				>
 					<i className="fab fa-linkedin-in" />
-				</a>
+				</Card.Link>
 			</Card.Body>
 		</Card>
 	);

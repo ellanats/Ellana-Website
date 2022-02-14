@@ -28,7 +28,7 @@
 
 .my-nav-menu {
 	font-size: 1.5rem;
-	gap: 1rem;	
+	gap: 1rem;
 }
 .navbar-toggle {
 	background-color: white;
@@ -53,9 +53,12 @@
 	display: block;
 	margin-top: 0;
 }
+.my-dropdown-item {
+	padding-left: 1rem;
+}
 
-.my-dropdown-item.dropdown-item:focus,
-.my-dropdown-item.dropdown-item:hover {
+.my-dropdown-item:focus,
+.my-dropdown-item:hover {
 	background-color: #59aaba;
 }
 

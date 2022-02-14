@@ -33,7 +33,7 @@
 	flex-direction: column;
 }
 
-.links {
+.my-links {
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;

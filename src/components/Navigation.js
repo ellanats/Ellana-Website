@@ -7,7 +7,7 @@ import { DropdownItems } from './DropdownItems';
 function Navigation() {
 	return (
 		<React.Fragment>
-			<Navbar className="my-navbar" expand="lg">
+			<Navbar className="my-navbar navbar-dark" expand="lg">
 				<Container className="my-container">
 					<Navbar.Brand as={Link} to="/Ellana-Website" className="my-brand text-white">
 						Ellana Designs
@@ -27,18 +27,13 @@ function Navigation() {
 							>
 								Home
 							</NavLink>
-							<NavDropdown
-								className="my-dropdown-menu"
-								title="Portfolio"
-								id="portfolio-nav-dropdown"
-								>
+							<NavDropdown className="my-dropdown-menu" title="Portfolio" id="portfolio-nav-dropdown">
 								{DropdownItems.map((item) => (
 									<div
 										data-hover="dropdown"
 										data-animations="fadeInDown"
 										className="my-dropdown-item"
 										key={item.id}
-										
 									>
 										<NavLink
 											as={Link}

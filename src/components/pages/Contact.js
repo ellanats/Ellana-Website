@@ -16,6 +16,7 @@ const Contact = () => {
 			<Card.Body className="links">
 				<a
 					className="btn btn-primary "
+					target ='blank'
 					style={{ backgroundColor: '#3b5998' }}
 					href="https://www.facebook.com/Ellana-Designs-2297107167231547"
 					role="button"
@@ -25,6 +26,7 @@ const Contact = () => {
 
 				<a
 					className="btn btn-primary"
+					target ='blank'
 					style={{ backgroundColor: '#ac2bac' }}
 					href="https://www.instagram.com/ellanadesigns/"
 					role="button"
@@ -34,6 +36,7 @@ const Contact = () => {
 
 				<a
 					className="btn btn-primary"
+					target ='blank'
 					style={{ backgroundColor: '#0082ca' }}
 					href="https://www.linkedin.com/in/ellana-tsvayberg-3b175a9/"
 					role="button"

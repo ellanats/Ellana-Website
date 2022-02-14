@@ -29,7 +29,7 @@ const PageCard = (props) => {
 				size="xl"				
 			>
 				<Modal.Header closeButton>
-					<div className="text-center">{props.title}</div>
+					<h4 className="container text-center">{props.title}</h4>
 				</Modal.Header>
 				<Modal.Body>
 					<div className="container-fluid">

@@ -23,10 +23,8 @@ const PageCard = (props) => {
 				show={lgShow}
 				onHide={handleClose}
 				id="myModal"
-				// {...props}
-				// aria-labelledby="contained-modal-title-vcenter"
 				centered="true"
-				size="xl"				
+				size="lg"				
 			>
 				<Modal.Header closeButton>
 					<h4 className="container text-center">{props.title}</h4>

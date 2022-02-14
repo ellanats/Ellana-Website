@@ -23,7 +23,7 @@ function Navigation() {
 								as={Link}
 								to="/Ellana-Website/"
 								className="my-link text-white"
-								onClick={() => '.navbar'.collapse('hide')}
+								//onClick={() => '.navbar'.collapse('hide')}
 							>
 								Home
 							</NavLink>
@@ -40,7 +40,7 @@ function Navigation() {
 											className="text-white"
 											name={item.name}
 											to={`/Ellana-Website${item.path}`}
-											onClick={() => '.navbar'.collapse('hide')}
+											//onClick={() => '.navbar'.collapse('hide')}
 										>
 											{item.title}
 										</NavLink>
@@ -52,7 +52,7 @@ function Navigation() {
 								className="my-link text-white"
 								to="/Ellana-Website/about"
 								data-bs-toggle="collapse"
-								onClick={() => '.navbar'.collapse('hide')}
+								//onClick={() => '.navbar'.collapse('hide')}
 							>
 								About
 							</NavLink>
@@ -61,7 +61,7 @@ function Navigation() {
 								className="my-link text-white hvr-underline-from-center"
 								to="/Ellana-Website/contact"
 								data-bs-toggle="collapse"
-								onClick={() => '.navbar'.collapse('hide')}
+								//onClick={() => '.navbar'.collapse('hide')}
 							>
 								Contact
 							</NavLink>

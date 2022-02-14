@@ -12,7 +12,7 @@ import Img11 from './images/grapes-grain.jpg';
 import Img12 from './images/abstract-grain.jpg';
 import Img13 from './images/family-crest-grain.jpg';
 import Img14 from './images/leaves_grain.jpg';
-import Img15 from './images/fishes-pond-grain.jpg';	
+import Img15 from './images/fishes-pond-grain.jpg';
 import Img16 from './images/vase-black-white.jpg';
 import Img17 from './images/grapes-black-white.jpg';
 import Img18 from './images/pepper-tomato-black-white.jpg';
@@ -189,7 +189,7 @@ export const images = [
 		title: 'Vase & Pearls still life',
 		path: '/black-white',
 		featured: false
-	},	
+	},
 	{
 		id: 16,
 		url: Img17,
@@ -318,7 +318,7 @@ export const images = [
 	{
 		id: 31,
 		url: Img34,
-		title: 'Paisley Composition',
+		title: 'Green Plant Abstract',
 		path: '/pointilism',
 		featured: false
 	},

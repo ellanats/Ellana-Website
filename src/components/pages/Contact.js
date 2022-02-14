@@ -4,7 +4,7 @@ import './contactCard.css';
 
 const Contact = () => {
 	return (
-		<Card className="mx-auto text-center" style={{ width: '30em', transformation: 'none' }}>
+		<Card className="mx-auto text-center">
 			<Card.Title>
 				<h1>Contact Information:</h1>
 			</Card.Title>

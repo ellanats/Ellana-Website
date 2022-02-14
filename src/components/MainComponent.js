@@ -10,6 +10,7 @@ import Jewelry from './pages/Jewelry';
 import OilPastels from './pages/OilPastels';
 import Pointilism from './pages/Pointilism';
 import StainedGlass from './pages/StainedGlass';
+import Footer from './Footer';
 import { images } from './images';
 
 class Main extends Component {
@@ -58,7 +59,8 @@ class Main extends Component {
 						<Route path="/Ellana-Website/about" element={<About />} />
 						<Route path="/Ellana-Website/contact" element={<Contact />} />						
 					</Routes>
-				</Router>				
+				</Router>
+				<Footer />
 			</React.Fragment>
 		);
 	}

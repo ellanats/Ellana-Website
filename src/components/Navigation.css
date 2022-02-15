@@ -28,17 +28,17 @@
 
 .my-nav-menu {
 	font-size: 1.5rem;
-	gap: 1rem;
+	gap: 1rem;	
 }
 
 .my-link.text-white.nav-link {
 	text-align: center;
-	color: white;
+	color: white;	
 }
 
 #portfolio-nav-dropdown {
-	color: white;
-	text-align: center;
+	color: white !important;
+	text-align: center !important;
 }
 
 .dropdown-menu.show {

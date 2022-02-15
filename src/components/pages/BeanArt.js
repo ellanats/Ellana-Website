@@ -12,7 +12,7 @@ function BeanArt({ images }) {
 			<Container className="container-fluid sticky-top">
 				<Row>
 					<Col className="border-dark border-bottom">
-						<div className="text-center">
+						<div className="text-center" >
 							<h1>Inspiration</h1>
 							<h5 className="text-justify">
 								The first time I saw my son's school craft project of an African mask using various

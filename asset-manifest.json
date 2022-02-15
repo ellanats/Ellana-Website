@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ellana-Website/static/css/main.24e06c3e.css",
-    "main.js": "/Ellana-Website/static/js/main.304f56c0.js",
+    "main.css": "/Ellana-Website/static/css/main.c9726789.css",
+    "main.js": "/Ellana-Website/static/js/main.340c5c71.js",
     "static/media/family-crest-grain.jpg": "/Ellana-Website/static/media/family-crest-grain.f1e9d7a8c5e9c1d741b7.jpg",
     "static/media/k-pendant-jewelry.jpg": "/Ellana-Website/static/media/k-pendant-jewelry.c95665b2cf67e37b0888.jpg",
     "static/media/e-pendant-jewelry.jpg": "/Ellana-Website/static/media/e-pendant-jewelry.617570ecb6ae0ce15f03.jpg",
@@ -43,11 +43,11 @@
     "static/media/oil-pastel-thumb.jpg": "/Ellana-Website/static/media/oil-pastel-thumb.a3b202c0ceb5bb6dffe0.jpg",
     "static/media/ellana.jpg": "/Ellana-Website/static/media/ellana.b611cc58537a9591bb65.jpg",
     "index.html": "/Ellana-Website/index.html",
-    "main.24e06c3e.css.map": "/Ellana-Website/static/css/main.24e06c3e.css.map",
-    "main.304f56c0.js.map": "/Ellana-Website/static/js/main.304f56c0.js.map"
+    "main.c9726789.css.map": "/Ellana-Website/static/css/main.c9726789.css.map",
+    "main.340c5c71.js.map": "/Ellana-Website/static/js/main.340c5c71.js.map"
   },
   "entrypoints": [
-    "static/css/main.24e06c3e.css",
-    "static/js/main.304f56c0.js"
+    "static/css/main.c9726789.css",
+    "static/js/main.340c5c71.js"
   ]
 }
